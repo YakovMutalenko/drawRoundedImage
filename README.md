@@ -10,19 +10,27 @@ Arggument *radius* can be number or array. Number will set radius of all 4 corne
 
 ## 1-to-4-value syntax
 
-### nubmer a of 1 value array [a]
+### 1 value array [a] or nubmer a
+
+![](docpics/1value.png)
 
 ### 2 value array [a, b]
 
+![](docpics/2values.png)
+
 ### 3 value array [a, b, c]
 
+![](docpics/3values.png)
+
 ### 4 value array [a, b, c, d]
+
+![](docpics/4values.png)
 
 
 # How to use
 Just like .drawImage():
 
-1. Add code from main.js to your project
+1. Add code from drawRoundedImage.js to your project
 2. Use one of bellow syntax
 
     2.1. Use the intrinsic size of image
