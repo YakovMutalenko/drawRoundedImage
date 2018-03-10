@@ -27,22 +27,22 @@ Just like .drawImage():
 
     2.1. Use the intrinsic size of image
     ```JavaScript
-      ctx.drawRoundedImage(image, radius, dx, dy);
+    ctx.drawRoundedImage(image, radius, dx, dy);
     ```
     2.2. Transform size of image 
     ```JavaScript
-      ctx.drawRoundedImage(image, radius, dx, dy, dWidth, dHeight);
+    ctx.drawRoundedImage(image, radius, dx, dy, dWidth, dHeight);
     ```
     2.3. Transform size of image and crop
     ```JavaScript
-      ctx.drawRoundedImage(image, radius, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);
+    ctx.drawRoundedImage(image, radius, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);
     ```
 # Examples
 
-    ```JavaScript
-      ctx.drawRoundedImage(image, 5, 10, 10);
-    ```
-    
-    ```JavaScript
-      ctx.drawRoundedImage(image, [15, 5, 0, 5], 25, 25, 100, 100);
-    ```
+```JavaScript
+ctx.drawRoundedImage(image, 5, 10, 10);
+```
+
+```JavaScript
+ctx.drawRoundedImage(image, [15, 5, 0, 5], 25, 25, 100, 100);
+```
