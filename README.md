@@ -47,6 +47,8 @@ Just like .drawImage():
     ```
 # Examples
 
+You can try it on [codepen](https://codepen.io/groog/pen/OvPEeo)
+
 ```JavaScript
 ctx.drawRoundedImage(image, 5, 10, 10);
 ```
